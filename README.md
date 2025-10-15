@@ -1,4 +1,4 @@
-# 📧 Microserviço de Notificação por E-mail | EngCode
+# 📧 Microserviço de Notificação por E-mail
 
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 ![Tecnologia](https://img.shields.io/badge/Spring%20Boot-3.x-blue?style=for-the-badge&logo=springboot)
