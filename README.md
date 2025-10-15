@@ -52,3 +52,5 @@ Para rodar este microserviço localmente, você precisa ter o Java 17+ instalado
 ```bash
 git clone [https://github.com/Iarlleym/Notifica-o_por-E-mail.git](https://github.com/Iarlleym/Notifica-o_por-E-mail.git)
 cd Notifica-o_por_E-mail
+
+⚠️ LEMBRETE IMPORTANTE: Quem for executar o projeto deve pegar o código SMTP (host, porta, usuário e senha) do seu e-mail e substituir no arquivo application.properties pelos valores corretos. Sem essa configuração, o envio de e-mails não será efetuado.
