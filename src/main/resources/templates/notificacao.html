@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembrete de Tarefa - EngCode</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f2f4f8;">
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f2f4f8;">
+    <tr>
+        <td align="center" style="padding: 30px 10px;">
+
+            <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; border-radius: 14px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); overflow: hidden; max-width: 640px;">
+
+                <tr>
+                    <td align="center" style="padding: 35px 30px; background-color: #1a1a1a; border-top-left-radius: 14px; border-top-right-radius: 14px;">
+                        <h1 style="margin: 0; color: #ff8c00; font-size: 28px; font-weight: 800; letter-spacing: 1px;">
+                            💻 EngCode
+                        </h1>
+                        <p style="margin: 5px 0 0 0; color: #cccccc; font-size: 14px; opacity: 0.9;">Sistema de Notificação de Tarefas</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 40px 40px 20px 40px;">
+
+                        <h2 style="color: #2c3e50; font-size: 24px; margin-top: 0; margin-bottom: 20px; border-left: 4px solid #ff8c00; padding-left: 10px;">
+                            Lembrete de Tarefa
+                        </h2>
+
+                        <p style="color: #555555; font-size: 16px; line-height: 1.6;">
+                            Sua tarefa está agendada. Por favor, não perca o prazo.
+                        </p>
+
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin: 30px 0; border: 1px solid #ff8c00; border-radius: 10px; background-color: #fffaf5;">
+                            <tr>
+                                <td style="padding: 25px;">
+
+                                    <p style="color: #1a1a1a; font-size: 20px; font-weight: 700; margin: 0 0 15px 0;">
+                                        <span th:text="${nomeTarefa}">[Nome da Tarefa]</span>
+                                    </p>
+
+                                    <p style="color: #1a1a1a; font-size: 16px; margin: 15px 0 0 0; line-height: 1.5;">
+                                        <strong>🗓️ Prazo Agendado:</strong> <span style="color: #dc3545; font-weight: bold;" th:text="${dataEvento}">[Horário do Evento]</span>
+                                    </p>
+
+                                    <hr style="border: 0; border-top: 1px dashed #e0e0e0; margin: 20px 0;">
+
+                                    <p style="color: #444444; font-size: 15px; margin: 0 0 10px 0;">
+                                        <strong style="color: #1a1a1a;">Detalhes:</strong>
+                                    </p>
+                                    <p th:text="${descricao}" style="color: #555555; font-size: 15px; line-height: 1.5; margin: 0;">
+                                        [Descrição da tarefa aqui...]
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center" style="padding: 25px 40px; background-color: #1a1a1a; color: #ffffff; border-bottom-left-radius: 14px; border-bottom-right-radius: 14px;">
+                        <p style="margin: 0; font-size: 13px; font-weight: 600;">
+                            EngCode | "Codificando o seu futuro, hoje.
+                        </p>
+                        <p style="margin: 10px 0 0 0; font-size: 11px; color: #b3c2cd;">
+                            Esta é uma notificação automática enviada pelo sistema. Por favor, não a responda.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
