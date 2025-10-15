@@ -46,7 +46,7 @@ Este microsserviço opera como um **Serviço de Comunicação**.
 ## 🚀 Como Executar o Projeto
 
 Para rodar este microserviço localmente, você precisa ter o Java 17+ instalado e configurar o serviço SMTP.
-⚠️ LEMBRETE IMPORTANTE: Quem for executar o projeto deve pegar o código SMTP (host, porta, usuário e senha) do seu e-mail e substituir no arquivo application.properties pelos valores corretos. Sem essa configuração, o envio de e-mails não será efetuado.
+**⚠️ LEMBRETE IMPORTANTE: Quem for executar o projeto deve pegar o código SMTP (host, porta, usuário e senha) do seu e-mail e substituir no arquivo application.properties pelos valores corretos. Sem essa configuração, o envio de e-mails não será efetuado.
 
 
 ### 1. Clonar o Repositório
