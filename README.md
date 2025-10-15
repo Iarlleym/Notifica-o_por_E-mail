@@ -2,7 +2,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 ![Tecnologia](https://img.shields.io/badge/Spring%20Boot-3.x-blue?style=for-the-badge&logo=springboot)
-![Linguagem](https://img률.io/badge/Java-17+-orange?style=for-the-badge&logo=java)
+![Linguagem](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java)
+![Template Engine](https://img.shields.io/badge/Thymeleaf-Elegante-005F0F?style=for-the-badge&logo=thymeleaf)
 
 ---
 
@@ -49,5 +50,5 @@ Para rodar este microserviço localmente, você precisa ter o Java 17+ instalado
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/Iarlleym/Notifica-o_por-E-mail.git
+git clone [https://github.com/Iarlleym/Notifica-o_por-E-mail.git](https://github.com/Iarlleym/Notifica-o_por-E-mail.git)
 cd Notifica-o_por_E-mail
